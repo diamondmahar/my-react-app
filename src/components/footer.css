@@ -1,0 +1,17 @@
+footer {
+    color: blueviolet;
+    background-color: #4287f5;
+    padding: 10px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
