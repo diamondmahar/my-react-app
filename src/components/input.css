@@ -1,0 +1,23 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 400px;
+}
+
+.input-container input {
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.input-container label {
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #f5c0a6;
+}
+
+.input-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
