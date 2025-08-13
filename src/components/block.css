@@ -4,16 +4,18 @@
     text-align: center;
     display: inline-block;
     background-color: #61dafb;
+    padding: 20px;
 }
 
 .features {
     flex-wrap: wrap;
-    max-width: 400px;
+    padding: 5px 20px 5px 5px;
+    background-color: white;
+    border-radius: 10%;
 }
 
-.features .li {
-    background-color: white;
-    border: 1px solid #ccc;
+.features li {
+    text-align: left;
 }
 
 .block .content {
@@ -32,23 +34,99 @@
 .pro-block {
     background-color: #F2673B;
     border-radius: 5%;
-    color: #23105B;
+    color: black;
     margin: 10px 20px;
+}
+
+.pro-block h2 {
+    background-color: #F2673B;
+    color: white;
 }
 
 .enterprise-block {
     background-color: #23105B;
-    color: #23105B;
+    color: black;
     border-radius: 5%;
     margin: 10px 20px;
+}
 
+.enterprise-block h2 {
+    background-color: #23105B;
+    color: white;
+}
 
+.btn {
+    background-color: #23105B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s;
+}
 
+.btn:hover {
+    background-color: #21a1f1;
+}
 
+.basic-btn {
+    background-color: #23105B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s;
+}
 
+.basic-btn:hover {
+    background-color: #21a1f1;
+}
 
+.pro-btn {
+    background-color: #F2673B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s;
+}
 
+.pro-btn:hover {
+    background-color: #d55a2b;
+}
 
+.enterprise-btn {
+    background-color: #23105B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s;
+}
 
-
+.enterprise-btn:hover {
+    background-color: #1a0f3b;
 }
