@@ -1,0 +1,54 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    display: inline-block;
+    background-color: #61dafb;
+}
+
+.features {
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.features .li {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.block .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.basic-block {
+    color: #23105B;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    margin: 10px 20px;
+}
+
+.pro-block {
+    background-color: #F2673B;
+    border-radius: 5%;
+    color: #23105B;
+    margin: 10px 20px;
+}
+
+.enterprise-block {
+    background-color: #23105B;
+    color: #23105B;
+    border-radius: 5%;
+    margin: 10px 20px;
+
+
+
+
+
+
+
+
+
+
+}

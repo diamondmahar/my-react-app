@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #23105B;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #F2673B;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin-bottom: 20px;
+}
+
+.button-2:hover {
+    background-color: #D95B2A;
+}
